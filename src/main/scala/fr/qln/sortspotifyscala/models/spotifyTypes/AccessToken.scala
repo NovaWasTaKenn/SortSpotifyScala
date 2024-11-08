@@ -1,7 +1,6 @@
-package fr.qln.sortspotifyscala.models
+package fr.qln.sortspotifyscala.models.spotifyTypes
 
-
-case class AccessTokenResponse(
+case class AccessToken(
                                 access_token: String,
                                 token_type: String,
                                 expires_in: Int,
